@@ -57,3 +57,17 @@ let someNumber = 33;
 
 let stringNumber = String(someNumber);
 Console.log(typeof stringNumber);
+
+let value = 3; 
+let negValue = -value;
+console.log(negValue);
+
+// confusing conversion or printing 
+
+console.log(1 + "2"); // 12
+console.log("1" + 2); // 12
+console.log("1" + 2 + 2); // 122
+console.log(1 + 2 + "2"); // 32
+
+console.log(true); // true;
+console.log(+true); // 1
