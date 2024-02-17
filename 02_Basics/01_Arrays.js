@@ -33,8 +33,19 @@ const myArr = [0,2,4,5,7,6];
 
 //Slice || splice
 
-const arr = [0,1,2,3,4,5];
+// const arr = [0,1,2,3,4,5];
 
-console.log("Original Array : " + arr);
+// console.log("Array A : " + arr);
+// console.log("-----------------------------------");
 
-// s
+// // slice --> Does not modify the original array
+
+// console.log("Array B : " + arr.slice(1,3));
+// console.log("Array B : " + arr);
+// console.log("-----------------------------------");
+
+
+// // Splice --> Modifies the original array
+// console.log("Array C : " + arr.splice(1,3));
+// console.log("Array C : " + arr)
+
